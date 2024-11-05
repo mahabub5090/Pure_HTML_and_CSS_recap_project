@@ -1,0 +1,104 @@
+.hero{
+    background-image: url("./assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_btn{
+    text-decoration: none ;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact_btn:hover{
+    background-color: white;
+    color: black;
+}
+.hero_text{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.hero_text_two{
+    font-size: 24px;
+}
+.main{
+    margin: 50px 30px;
+    background: #f3f3f4;
+    padding: 10px;
+}
+.why{
+    margin: 0px 20px;
+    text-align: center;
+}
+.sect_one>p{
+    padding: 20px;
+}
+.upper_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.inspiration,.current_target{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 30px;
+}
+.inspiration img{
+    width: 100%;
+}
+.inspiration_text,.current_target_text{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.single_card{
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.card_one{
+    background-color: #FF651E;
+}
+.card_two{
+    background-color: #0065F4;
+    
+}
+.card_three{
+    background-color: #FFDF00 ;
+    
+}
+#footer{
+    background-image: url("./assets/handshake.jpg");
+    height: 60vh;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.footer_input{
+    height: 20px;
+    width: 200px;
+}
+.submit{
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+.end_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
